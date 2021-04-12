@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <title>PRINCIPAL</title>
+</head>
+<body>
+
+        <body>
+
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="principal.html"> THE UKNOWNS </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="altas-de-usuarios.html"> AGREGAR USUARIOS <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="altas-libros.html">ALTAS DE REFACCIONES </a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="alta-categoria.html"> ALTAS DE CATEGORIAS </a>
+                      </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="Devoluciones.html"> DEVOLUCIONES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Prestamos.html"> PRESTAMOS</a>
+                      </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CHECAR
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="checar-libros.html">CHEAR REFACCIONES</a>
+                    <a class="dropdown-item" href="checar-usuarios.html">CHECAR USUARIOS</a>
+                    <a class="dropdown-item" href="checar-categorias.html">CHECAR CATEGORIAS</a>
+                    <a class="dropdown-item" href="checar-prestamo.html">CHECAR PRESTAMOS</a>
+                    <a class="dropdown-item" href="checar-devolucion.html">CHECAR DEVOLUCION</a>
+                    <div class="dropdown-divider"></div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ELIMINAR
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="eliminar-libro.html">ELIMINAR REFACCIONES</a>
+                    <a class="dropdown-item" href="eliminar-usuario.html">ELIMINAR USUARIOS</a>
+                    <a class="dropdown-item" href="eliminar-categoria.html">ELIMINAR CATEGORIAS</a>
+                    <div class="dropdown-divider"></div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ATUALIZAR
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="actualizar-libro.html">ACTUALIZAR REFACCIONES</a>
+                    <a class="dropdown-item" href="actualizar-usuario.html">ACTUALIZAR USUARIOS</a>
+                    <a class="dropdown-item" href="actualizar-categoria.html">ACTUALIZAR CATEGORIAS</a>
+                    <div class="dropdown-divider"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+              <br>
+              <br>
+              <br>  
+              
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+
+            </div>
+
+            <div class="table-responsive-sm">
+                <table class="table" id="listarUsuarios">
+                    <thead class="bg-success text-datk">
+                        <tr>
+                            <th scope="col">_id</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Img</th>
+                            <th scope="col">Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+              </div>
+              
+              <script type="text/javascript">
+                $(document).ready(function() {
+                    $.ajax({
+                        type: 'GET',
+                        url: 'http://localhost:3000/usuario',
+                        beforeSend: function(request) {
+                            request.setRequestHeader("token", window.localStorage.getItem('token'));
+                        },
+                        success: function(resp) {
+                            console.log(resp.usuarios);
+                            $.each(resp.usuarios, function(i, item) {
+                                $("#listarUsuarios > tbody").append(`<tr>` +
+                                    `<td><b>` + item._id + `</b></td>` +
+                                    `<td>` + item.nombre + `</td>` +
+                                    `<td>` + item.email + `</td>` +
+                                    `<td><img class='img-thumbnail img-fluid' width='80px' src='http://localhost:3000/imagen/usuario/${item.img}'></td>` +
+                                    `<td><b>` + item.estado + `</td>` +
+                                    `</tr>`);
+                            });
+                            // $.each(resp, function(i, item) {
+                            //     alert(item.libros);
+                            // });
+              
+                        }
+                    });
+                });
+              </script>
+              
+    
+</body>
+</html>
